@@ -1,0 +1,20 @@
+<html>
+<body>
+
+<form action="welcome.php" method="POST">
+ชื่อ-สกุล: <input type="text" name="name"><br>
+ชั้น: <input type="text" name="email"><br>
+เลขที่: <input type="text" name="email"><br>
+<form method="post" action="process.php">
+        <label for="choices">เพศ:</label>
+        <select id="choices" name="choices">
+            <option value="option1">ชาย</option>
+            <option value="option2">หญิง</option>
+            <option value="option3">ไม่ระบุ</option>
+        </select>
+    </form>
+<input type="submit">
+</form>
+
+</body>
+</html>
